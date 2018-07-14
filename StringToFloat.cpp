@@ -1,28 +1,14 @@
-//////////////////////////////////////////////////////////////
-//
-// Your #includes here; make sure you are allowed them ...
-// You are allowed float.h
+
 #include<math.h>
 
-//////////////////////////////////////////////////////////////
-//
-// #includes and function declarations; do not remove
-//
-
-#ifndef MARMOSET_TESTING
 #include <iostream>
 using namespace std;
-#endif
 
-//////////////////////////////////////////////////////////////
-//
-// Function declarations; do not remove
+
 
 bool stringToFloat(const char input[], float& value);
 
-//////////////////////////////////////////////////////////////
-//
-// Your code here ...
+
 
 bool stringToFloat(const char input[], float& value) {
 
@@ -189,19 +175,6 @@ currentdigit++;
 
 
 }
-
-
-
-//////////////////////////////////////////////////////////////
-//
-// Test Driver
-//
-// Do not remove the #ifndef and its associated #endif
-// This is required so that when you submit your code,
-// this test driver will be ignored by Marmoset
-//
-
-#ifndef MARMOSET_TESTING
 int main(const int argc, const char* const argv[]) {
 
   // Some test driver code here ....
@@ -219,4 +192,4 @@ int main(const int argc, const char* const argv[]) {
   return 0;
 }
 
-#endif
+
